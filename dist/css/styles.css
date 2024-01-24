@@ -147,6 +147,10 @@ h3, .h3 {
   }
 }
 
+h5 {
+  text-align: center;
+}
+
 h4, .h4 {
   font-size: calc(1.275rem + 0.3vw);
 }
@@ -558,6 +562,10 @@ progress {
   }
 }
 
+.ul-text{
+  font-size: 1.1em;
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
@@ -600,7 +608,7 @@ progress {
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 200px;
 }
 
 .img-thumbnail {
@@ -733,6 +741,7 @@ progress {
   flex: 0 0 auto;
   width: 8.33333333%;
 }
+
 
 .col-2 {
   flex: 0 0 auto;
@@ -1106,6 +1115,11 @@ progress {
     flex: 0 0 auto;
     width: 16.66666667%;
   }
+
+  .col-md-2-3 {
+    flex: 0 0 auto;
+    width: 12%;
+  }
   .col-md-3 {
     flex: 0 0 auto;
     width: 25%;
@@ -1271,6 +1285,12 @@ progress {
     flex: 0 0 auto;
     width: 8.33333333%;
   }
+
+  .col-lg-2-3 {
+    flex: 0 0 auto;
+    width: 12%;
+  }
+
   .col-lg-2 {
     flex: 0 0 auto;
     width: 16.66666667%;
@@ -7703,6 +7723,10 @@ textarea.form-control-lg {
   margin-left: auto !important;
 }
 
+.p-new {
+  font-size: 1.18em;
+}
+
 .p-0 {
   padding: 0 !important;
 }
@@ -7990,6 +8014,11 @@ textarea.form-control-lg {
 .text-end {
   text-align: right !important;
 }
+
+.text-justify {
+  text-align: justify !important;
+}
+
 
 .text-center {
   text-align: center !important;
