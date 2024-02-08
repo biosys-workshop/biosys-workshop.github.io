@@ -620,6 +620,11 @@ progress {
   height: 200px;
 }
 
+.img-fluid-keynote {
+  max-width: 100%;
+  height: 250px;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -11085,4 +11090,13 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.keynote {
+  color: RGBA(26, 188, 156, var(--bs-bg-opacity, 1))  !important;
+  text-decoration: none;
+}
+
+.keynote:hover{
+  text-decoration: underline;
 }
