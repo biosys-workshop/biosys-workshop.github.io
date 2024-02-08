@@ -249,6 +249,17 @@ sup {
   top: -0.5em;
 }
 
+
+.keynote {
+  color: RGBA(26, 188, 156, var(--bs-bg-opacity, 1)) !important;
+  text-decoration: none !important;
+}
+
+.keynote:hover{
+  text-decoration: underline !important;
+}
+
+
 .a_new {
   color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
   text-decoration: none;
@@ -11090,13 +11101,4 @@ html {
 
 .copyright {
   background-color: #1a252f;
-}
-
-.keynote {
-  color: RGBA(26, 188, 156, var(--bs-bg-opacity, 1))  !important;
-  text-decoration: none;
-}
-
-.keynote:hover{
-  text-decoration: underline;
 }
